@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app/constants.dart';
+import 'package:plant_app/screens/details_screen.dart';
 import 'package:plant_app/screens/home/components/recommended_plant_card.dart';
 
 class RecommendedPlants extends StatelessWidget {
@@ -18,6 +19,12 @@ class RecommendedPlants extends StatelessWidget {
             title: 'Renan',
             country: 'Brazil',
             price: 22,
+            onPress: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => DetailsScreen()),
+              );
+            },
           ),
           RecommendedPlantCard(
             image: 'assets/images/image_2.png',
