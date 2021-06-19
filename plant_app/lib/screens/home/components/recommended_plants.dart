@@ -15,15 +15,15 @@ class RecommendedPlants extends StatelessWidget {
         children: [
           RecommendedPlantCard(
             image: 'assets/images/image_1.png',
-            title: 'Aurora',
+            title: 'Renan',
             country: 'Brazil',
-            price: 400,
+            price: 22,
           ),
           RecommendedPlantCard(
             image: 'assets/images/image_2.png',
-            title: 'Raymond',
+            title: 'Mariana',
             country: 'Brazil',
-            price: 1000,
+            price: 13,
           ),
           RecommendedPlantCard(
             image: 'assets/images/image_3.png',
