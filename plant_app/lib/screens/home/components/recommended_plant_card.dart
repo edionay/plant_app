@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 
-class RecomendedPlantCard extends StatelessWidget {
-  RecomendedPlantCard(
+class RecommendedPlantCard extends StatelessWidget {
+  RecommendedPlantCard(
       {required this.image,
       required this.title,
       required this.country,
@@ -12,7 +12,7 @@ class RecomendedPlantCard extends StatelessWidget {
 
   final String image, title, country;
   final int price;
-  Function? onPress;
+  final Function? onPress;
 
   @override
   Widget build(BuildContext context) {
